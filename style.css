@@ -47,7 +47,7 @@ nav ul li:not(:last-of-type) {
     margin-top: -50px;
     height: 400px;
     width: 100%;
-    background-image: url(./girl.jpg);
+    background-image: url(./img/girl.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-position-y: center;
@@ -167,7 +167,7 @@ nav ul li:not(:last-of-type) {
 .portfolio-pic {
     width: 100%;
     height: 400px;
-   background-image: url("./girl-2.jpg");
+   background-image: url("./img/girl-2.jpg");
    background-position: center;
    display: flex;
    justify-content: center;
@@ -210,7 +210,7 @@ button:hover {
     opacity: 0.5;
 }
 .girl {
-    background-image: url(./girl-3.jpg);
+    background-image: url(./img/girl-3.jpg);
     background-position: center;
     width: 100%;
     height: 400px;
