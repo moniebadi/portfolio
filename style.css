@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    line-height: 2;
+}
+
+i {
+    margin-right: 5px;
+}
+header {
+    position: sticky;
+    top: 0;
+    padding: 8px 24px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+}
+/* nav {
+    width: 100%;
+} */
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style:  none;
+}
+
+nav ul li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.hero {
+    margin-top: -50px;
+    height: 400px;
+    width: 100%;
+    background-image: url(./girl.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position-y: center;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero span {
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 32px;
+    padding: 4px 12px;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 40px auto;
+    color: gray;
+}
+
+.about h2 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.about h2, .about div {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.my-info {
+    display: flex;
+    margin: 50px 0;
+}
+
+.my-info > div:first-of-type > div {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.my-info > div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.my-info img {
+    filter: opacity(0.6);
+}
+.my-info img:hover {
+    filter: opacity(1);
+}
+
+.skills {
+    margin: 50px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill > div:first-of-type {
+    letter-spacing: 6px;
+}
+
+.skill .meter-wrapper {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: lightgrey;
+}
+
+.meter-wrapper > div {
+    height: inherit;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photography {
+    width: 90%;
+}
+
+.web-design {
+    width: 85%;
+}
+
+.photoshop {
+    width: 75%;
+}
+.w3-row {
+    display: flex;
+    background-color: gray;
+}
+.w3-quarter {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+}
+.w3-xlarge {
+    font-size: 30px;
+}
+.portfolio-pic {
+    width: 100%;
+    height: 400px;
+   background-image: url("./girl-2.jpg");
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.75;
+}
+.text {
+    font-size: 35px;
+    color: white;
+    letter-spacing: 8px;
+}
+section {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 64px 16px;
+}
+section p {
+    margin-bottom: 30px;
+}
+.pics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pics img {
+    width: 24%;
+}
+.pics img:hover {
+    opacity: 0.5;
+}
+.button {
+    border: none;
+    height: 50px;
+    width: 130px;
+    margin-top: 50px;
+}
+button:hover {
+    opacity: 0.5;
+}
+.girl {
+    background-image: url(./girl-3.jpg);
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.girl span {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.contact {
+    width: 100%;
+    max-width: 980px;
+    margin: 30px auto 100px;
+    color: grey;
+}
+.contact h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.contact h2,.contact > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact-form img{
+    height: 180px;
+    width: 280px;
+}
+.contact-form {
+    display: flex;
+}
+
+.form-wrapper {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.form-wrapper > * {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.form-wrapper .info i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.form input {
+    outline: none;
+    padding: 5px;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name, .email {
+    width: 49%
+}
+
+.message {
+    display: block;
+    width: 100%;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.form-btn button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+}
+footer {
+    background-color: gray;
+    height: 290px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer:hover {
+    background-color: black;
+}
+.social {
+    color: white;
+    margin: 30px 0;
+}
+
+.social i {
+    font-size: 20px;
+}
+.social i:hover {
+    color: gray;
+}
+
+footer > a {
+    outline: none;
+    border: none;
+    width: 125px;
+    height: 50px;
+    background-color: lightgray;
+    color: #000;
+}
+footer span > a {
+    text-decoration: underline;
+}
+
+footer span, footer span > a {
+    color: white;
+}
+footer span > a:hover {
+    color: green;
+}
+
